@@ -5,10 +5,12 @@ JavaScript client library for
 
 ## Usage
 
-  Prism("channel", "url");                        #=> create Prism.connection by given URL
-  Prism("channel").send("message");               #=> send message via Prism.connection
-  Prism("channel").disconnect();                  #=> close Prism.connection
-  Prism("channel").bind("event_name", callback);  #=> set callback on given event received from Prism
+```javascript
+Prism("channel", "url");                        #=> create Prism.connection by given URL
+Prism("channel").send("message");               #=> send message via Prism.connection
+Prism("channel").disconnect();                  #=> close Prism.connection
+Prism("channel").bind("event_name", callback);  #=> set callback on given event received from Prism
+```
 
 ## License
 
